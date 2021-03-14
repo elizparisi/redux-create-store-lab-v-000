@@ -1,5 +1,5 @@
 // write your createStore function here
-function createStore(reducer) {
+function createStore(candyReducer) {
   let state;
 }
 
