@@ -3,7 +3,7 @@ function createStore(candyReducer) {
   let state;
   
   function dispatch(action){
-    state = reducer(state, action);
+    state = candyReducer(state, action);
     render();
   }
   
